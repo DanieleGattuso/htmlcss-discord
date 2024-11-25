@@ -182,7 +182,7 @@ p{
     width: 70%;
     border: dashed black 2px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
     
     flex-direction: column;
