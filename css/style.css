@@ -170,7 +170,7 @@ p{
     
 }
 
-#img-container2 {
+.img-container2 {
 
     height: 100%;
     width: 100%;
@@ -218,6 +218,10 @@ p{
     height: 350px;
     width: 100%;
     border: dashed black 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
 }
 
 .main-div4 {
