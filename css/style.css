@@ -294,6 +294,7 @@ p{
     align-items: center;
     padding-right: 150px;
     padding-left: 150px;
+    
 }
 
 .div-container5{
@@ -302,6 +303,9 @@ p{
     height: 400px;
     width: 100%;
     border: dashed rgb(0, 0, 0) 2px;
+
+    
+    
 
 
 
@@ -314,7 +318,19 @@ p{
     width: 50%;
     border: dashed rgb(255, 255, 255) 2px;
 
+        
+    
 
+}
+
+h3 {
+
+    font-size: 30px;
+}
+
+nav {
+
+    padding-bottom: 10px;
 }
 
 
@@ -352,5 +368,11 @@ p{
     background-color: rgb(240, 190, 190);
     height: 50%;
 
+    
+}
+
+.Purple-smalltitle {
+
+    color: rgb(152, 62, 237);
     
 }
