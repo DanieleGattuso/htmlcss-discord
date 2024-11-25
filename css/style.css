@@ -61,8 +61,10 @@ header {
     
 
     background-image: url(../img/jumbo.png);
-    background-size: 80%;
+    background-size: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
+    
     
     
     height: 450px;
@@ -78,10 +80,10 @@ header {
 
 .div-container1 {
 
-    background-color: rgb(247, 143, 214);
+    /* background-color: rgb(247, 143, 214); */
     height: 250px;
     width: 100%;
-    border: dashed black 3px;
+    /* border: dashed black 3px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,12 +137,18 @@ h1{
     font-size: 50px;
 }
 
+h2 {
+
+    font-size: 45px
+}
+
 p{
 
     font-size: 20px;
 }
  /* seconda parte  */
 .main-div2 {
+    
     
     background-color: rgb(255, 255, 255);
     height: 400px;
@@ -159,7 +167,13 @@ p{
     height: 350px;
     width: 100%;
     border: dashed black 2px;
+    
+}
 
+#img-container2 {
+
+    height: 100%;
+    width: 100%;
 }
 .div-container2-1 {
 
@@ -167,6 +181,12 @@ p{
     height: 350px;
     width: 70%;
     border: dashed black 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    flex-direction: column;
+    
 
 }
 
